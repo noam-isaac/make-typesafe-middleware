@@ -1,7 +1,7 @@
-**/github
+**/.github
 .gitignore
 tsconfig.json
-.eslintrc.json
+.eslintrc.js
 .eslintignore
-.prettierrc
+.prettierrc.js
 .prettierignore
