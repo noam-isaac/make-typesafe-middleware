@@ -20,9 +20,10 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm run lint && pnpm run build
-      - name: Create Release Pull Request or Publish
+      - name: Create Release Pull Request or Publish to NPM
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: npm publish
-        env: NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+          publish: pnpm run release
+        env: 
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

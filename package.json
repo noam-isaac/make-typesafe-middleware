@@ -6,7 +6,8 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsc",
-		"lint": "concurrently \"eslint --ext .ts .\" \"prettier --check .\""
+		"lint": "concurrently \"eslint --ext .ts .\" \"prettier --check .\"",
+		"release": "changeset publish"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.17",
