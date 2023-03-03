@@ -4,7 +4,7 @@
 		"noUncheckedIndexedAccess": true,
 		"strict": true,
 		//* Modules
-		"module": "esnext",
+		"module": "CommonJS",
 		"moduleResolution": "nodenext",
 		//* Emit
 		"declaration": true,
@@ -17,7 +17,7 @@
 		//* Completeness
 		"skipLibCheck": true,
 		//* Language and Environment
-		"target": "esnext"
+		"target": "es5"
 	},
 	"include": ["src/**/*"]
 }
