@@ -1,5 +1,11 @@
 # make-typesafe-middleware
 
+## 0.0.3
+
+### Patch Changes
+
+- d224f97: Fix tsconfig
+
 ## 0.0.2
 
 ### Patch Changes
