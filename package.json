@@ -2,6 +2,22 @@
 	"name": "make-typesafe-middleware",
 	"license": "MIT",
 	"version": "0.0.3",
+	"description": "Easy TypeSafety for your Express middlewares, using Zod!",
+	"keywords": [
+		"express",
+		"typescript",
+		"zod",
+		"validation",
+		"typesafety"
+	],
+	"homepage": "https://github.com/noam-isaac/make-typesafe-middleware#readme",
+	"bugs": {
+		"url": "https://github.com/noam-isaac/make-typesafe-middleware/issues"
+	},
+	"author": {
+		"name": "Noam Isaac"
+	},
+	"repository": "github:noam-isaac/make-typesafe-middleware",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
