@@ -1,3 +1,8 @@
 *-lock.*
-.changeset/**
-./github/**
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/.changeset
+**/.github
+**/dist
