@@ -1,13 +1,23 @@
 {
 	"compilerOptions": {
-		"target": "es2016",
-		"module": "commonjs",
+		//* Type checking
+		"noUncheckedIndexedAccess": true,
+		"strict": true,
+		//* Modules
+		"module": "esnext",
+		"moduleResolution": "nodenext",
+		//* Emit
+		"declaration": true,
+		"exactOptionalPropertyTypes": true,
+		"outDir": "dist",
+		"removeComments": true,
+		//* Interop Constraints
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"noUncheckedIndexedAccess": true,
-		"exactOptionalPropertyTypes": true,
+		//* Completeness
 		"skipLibCheck": true,
-		"noEmit": true
-	}
+		//* Language and Environment
+		"target": "esnext"
+	},
+	"include": ["src/**/*"]
 }

@@ -1,0 +1,7 @@
+**/github
+.gitignore
+tsconfig.json
+.eslintrc.json
+.eslintignore
+.prettierrc
+.prettierignore
