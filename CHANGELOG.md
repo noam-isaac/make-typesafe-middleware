@@ -1,5 +1,11 @@
 # make-typesafe-middleware
 
+## 0.0.4
+
+### Patch Changes
+
+- c99a4b7: Add some missing fields to the package.json
+
 ## 0.0.3
 
 ### Patch Changes
