@@ -1,4 +1,4 @@
-name: CI
+name: Publish
 on:
   push:
     branches:
@@ -24,4 +24,5 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm run build
+          publish: npm publish
+        env: NPM_TOKEN=${{ secrets.NPM_TOKEN }}
