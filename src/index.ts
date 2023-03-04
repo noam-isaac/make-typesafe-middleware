@@ -30,3 +30,5 @@ export const makeTypesafeMiddleware =
 			next(parsedReq.error);
 		}
 	};
+
+export default makeTypesafeMiddleware;
