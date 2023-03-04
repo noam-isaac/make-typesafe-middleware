@@ -1,7 +1,7 @@
 {
 	"name": "make-typesafe-middleware",
 	"license": "MIT",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Easy TypeSafety for your Express middlewares, using Zod!",
 	"keywords": [
 		"express",
