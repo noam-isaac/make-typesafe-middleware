@@ -1,5 +1,11 @@
 # make-typesafe-middleware
 
+## 0.0.5
+
+### Patch Changes
+
+- fa29683: Update readme for higher accuracy
+
 ## 0.0.4
 
 ### Patch Changes
