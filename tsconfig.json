@@ -4,8 +4,8 @@
 		"noUncheckedIndexedAccess": true,
 		"strict": true,
 		//* Modules
-		"module": "CommonJS",
-		"moduleResolution": "nodenext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 		//* Emit
 		"declaration": true,
 		"exactOptionalPropertyTypes": true,
