@@ -9,7 +9,7 @@ export const makeTypesafeMiddleware =
 			[requestKey in keyof Request]?: z.Schema<Request[requestKey]>;
 		},
 	>(
-		// The following decleration essentially states that the schemas can be of (and only of) any property of Request
+		// The following declaration essentially states that the schemas can be of (and only of) any property of Request
 		schemas: keyof Schemas extends keyof Request
 			? z.ZodObject<Schemas>
 			: z.ZodObject<{ [key in Exclude<keyof Schemas, keyof Request>]: never }>,
