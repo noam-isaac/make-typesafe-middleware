@@ -1,5 +1,12 @@
 # make-typesafe-middleware
 
+## 0.0.6
+
+### Patch Changes
+
+- 37d1f32: build(deps-dev): bump braces from 3.0.2 to 3.0.3
+- 0ed4a80: Fix failed builds
+
 ## 0.0.5
 
 ### Patch Changes
