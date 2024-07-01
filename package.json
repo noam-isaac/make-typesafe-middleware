@@ -3,6 +3,7 @@
 	"license": "MIT",
 	"version": "0.0.5",
 	"description": "Easy TypeSafety for your Express middlewares, using Zod!",
+	"packageManager": "pnpm@9.4.0",
 	"keywords": [
 		"express",
 		"typescript",
